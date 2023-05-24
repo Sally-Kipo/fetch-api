@@ -1,0 +1,70 @@
+/* @font-face {
+    font-family: Poppins;
+    src: url(./Components/Fonts/Roboto-Regular.ttf);
+}
+*{
+font-family: 'Roboto', sans-serif;
+} */
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 968px;
+    height: 612px;
+    left: 136px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(190, 215, 246, 0.5);
+    border-radius: 30px;
+    padding: 131px;
+  }
+  
+  .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    margin-top: -100px;
+    margin-left: 10px;
+  }
+  
+  .heading {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-weight: bold;
+    padding: 30px;
+    line-height: 40px;
+    color: #B5B7C0;
+    position: relative;
+    grid-column-gap: 40px;
+  }
+  
+  .heading span:first-child {
+    margin-left: -20px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 28px;
+    position: relative;
+    gap: 20px;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #EEEEEE;
+  }
+  
+  .container:last-child::before {
+    display: none;
+  }
+  
